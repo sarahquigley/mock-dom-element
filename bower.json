@@ -1,5 +1,5 @@
 {
-  "name": "coffeescript-library-skeleton",
+  "name": "coffeescript-lib-skeleton",
   "ignore": [
     "**/.*",
     "node_modules",

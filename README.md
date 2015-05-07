@@ -1,4 +1,4 @@
-# Coffeescript Library Skeleton
+# Coffeescript Lib Skeleton
 
 A skeleton for creating javascript libraries in Coffeescript.
 
