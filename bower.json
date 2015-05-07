@@ -1,5 +1,7 @@
 {
   "name": "coffeescript-lib-skeleton",
+  "version": "0.0.0",
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
