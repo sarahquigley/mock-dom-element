@@ -1,6 +1,6 @@
-# Coffeescript Skeleton
+# Coffeescript Library Skeleton
 
-A skeleton for creating web applications in Coffeescript (and SCSS).
+A skeleton for creating javascript libraries in Coffeescript.
 
 
 ## Installing dependencies
