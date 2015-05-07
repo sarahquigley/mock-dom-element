@@ -144,18 +144,13 @@ module.exports = function(grunt) {
 
       wiredep: {
         files: ['bower.json'],
-        tasks: ['wiredep:dev', 'wiredep:test']
+        tasks: ['wiredep:test']
       }
     },
 
     // Wiredep tasks    - Inject bower dependencies automatically into source code
-    // wiredep:dev      - Inject bower dependencies into html pages
     // wiredep:test     - Inject bower dependencies into karma config
     wiredep: {
-      dev: {
-        src: ['<%= config.dirs.src %>/index.html']
-      },
-
       test:{
         src: 'karma.conf.js',
         fileTypes: {
@@ -207,7 +202,6 @@ module.exports = function(grunt) {
       'clean:dev',
       'coffee:dev',
       'sass:dev',
-      'wiredep:dev',
       'connect:livereload'
     ]);
 
