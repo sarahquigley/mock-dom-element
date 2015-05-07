@@ -8,15 +8,15 @@ module.exports = function(grunt) {
   // Configure variables for use across grunt tasks
   var config = {
     dirs: {
-      app: 'app',
+      src: 'src',
       dev: '.dev'
     },
     files: {
       scripts: [
-        '<%= config.dirs.app %>/main.coffee',
+        '<%= config.dirs.src %>/main.coffee',
       ],
       tests: [
-        '<%= config.dirs.app %>/**/*.spec.coffee'
+        '<%= config.dirs.src %>/**/*.spec.coffee'
       ]
     }
   };
@@ -72,7 +72,7 @@ module.exports = function(grunt) {
           middleware: function (connect) {
             return [
               connect.static(config.dirs.dev),
-              connect.static(config.dirs.app)
+              connect.static(config.dirs.src)
             ];
           }
         }
@@ -102,7 +102,7 @@ module.exports = function(grunt) {
       dev: {
         files: [{
           expand: true,
-          cwd: '<%= config.dirs.app %>/styles',
+          cwd: '<%= config.dirs.src %>/styles',
           src: ['**/*.{scss,sass}'],
           dest: '<%= config.dirs.dev %>/styles',
           ext: '.css'
@@ -130,14 +130,14 @@ module.exports = function(grunt) {
           livereload: '<%= connect.options.livereload %>'
         },
         files: [
-          '<%= config.dirs.app %>/**/*.html',
+          '<%= config.dirs.src %>/**/*.html',
           '<%= config.dirs.dev %>/**/*.js'
         ]
       },
 
       sass: {
         files: [
-          '<%= config.dirs.app %>/styles/**/*.{scss,sass}'
+          '<%= config.dirs.src %>/styles/**/*.{scss,sass}'
         ],
         tasks: ['sass']
       },
@@ -153,7 +153,7 @@ module.exports = function(grunt) {
     // wiredep:test     - Inject bower dependencies into karma config
     wiredep: {
       dev: {
-        src: ['<%= config.dirs.app %>/index.html']
+        src: ['<%= config.dirs.src %>/index.html']
       },
 
       test:{
