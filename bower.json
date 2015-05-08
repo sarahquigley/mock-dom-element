@@ -2,6 +2,7 @@
   "name": "coffeescript-lib-skeleton",
   "version": "0.0.0",
   "private": false,
+  "main": "build/main.js",
   "ignore": [
     "**/.*",
     "node_modules",
