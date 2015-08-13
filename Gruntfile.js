@@ -59,6 +59,7 @@ module.exports = function(grunt) {
     // Karma - test runner
     // karma:concurrent   - Run test in the background
     // karma:single       - Run tests once
+    // karma:continuous-integration  - Run tests only in headless browsers, for use during continuous integration
     karma: {
       options: {
         configFile: 'karma.conf.js'
@@ -70,6 +71,11 @@ module.exports = function(grunt) {
       // Run tests once
       single: {
         singleRun: true
+      },
+      // Run only in headless browsers
+      'continuous-integration': {
+        singleRun: true,
+        browsers: ['PhantomJS'],
       }
     },
 
@@ -125,6 +131,22 @@ module.exports = function(grunt) {
       'clean:build',
       'coffee:build',
       'karma:single'
+    ]);
+  });
+
+  // continuous-integration   - Run single run of unit tests in headless browsers, compile files to build directory
+  //    [--no-install-deps]   - Skip dependency installation.
+  grunt.registerTask('build', 'Build, optionally run tests', function(){
+    if(! grunt.option('no-install-deps')){
+      grunt.task.run([
+        'npm-install',
+      ]);
+    }
+
+    grunt.task.run([
+      'karma:continuous-integration',
+      'clean:build',
+      'coffee:build',
     ]);
   });
 
