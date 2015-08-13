@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/sarahquigley/coffeescript-lib-skeleton.svg)](https://travis-ci.org/sarahquigley/coffeescript-lib-skeleton)
 [![Dependency Status](https://gemnasium.com/sarahquigley/coffeescript-lib-skeleton.svg)](https://gemnasium.com/sarahquigley/coffeescript-lib-skeleton)
 [![devDependency Status](https://david-dm.org/sarahquigley/coffeescript-lib-skeleton/dev-status.svg)](https://david-dm.org/sarahquigley/coffeescript-lib-skeleton#info=devDependencies)
+[![GitHub release](https://img.shields.io/github/release/sarahquigley/coffeescript-lib-skeleton.svg)](https://github.com/sarahquigley/coffeescript-lib-skeleton/releases)
 
 A skeleton for creating Javascript libraries in Coffeescript.
 
