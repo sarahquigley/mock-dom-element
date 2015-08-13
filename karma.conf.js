@@ -36,17 +36,20 @@ module.exports = function(config){
       'karma-mocha-reporter',
       'karma-coffee-preprocessor',
       'karma-ng-html2js-preprocessor',
+      'karma-coverage',
     ],
 
     // List of reporters to use
     reporters: [
       'html',
       'mocha',
+      'coverage',
     ],
 
     // Preprocessors to use
     preprocessors: {
       'src/**/*.spec.coffee': 'coffee',
+      'build/main.js': 'coverage',
     },
 
     // Coffeescript preprocessor config
