@@ -134,22 +134,6 @@ module.exports = function(grunt) {
     ]);
   });
 
-  // continuous-integration   - Run single run of unit tests in headless browsers, compile files to build directory
-  //    [--no-install-deps]   - Skip dependency installation.
-  grunt.registerTask('build', 'Build, optionally run tests', function(){
-    if(! grunt.option('no-install-deps')){
-      grunt.task.run([
-        'npm-install',
-      ]);
-    }
-
-    grunt.task.run([
-      'karma:continuous-integration',
-      'clean:build',
-      'coffee:build',
-    ]);
-  });
-
   // build            - Compile files to build directory, watch files for changes, optionally run tests concurrently
   //    [--test]              - Run unit tests concurrently
   //    [--no-install-deps]   - Skip dependency installation.
