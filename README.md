@@ -1,5 +1,7 @@
 # Coffeescript Lib Skeleton
 
+[![Build Status](https://travis-ci.org/sarahquigley/coffeescript-lib-skeleton.svg?branch=add-travis-ci)](https://travis-ci.org/sarahquigley/coffeescript-lib-skeleton)
+
 A skeleton for creating Javascript libraries in Coffeescript.
 
 
