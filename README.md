@@ -4,7 +4,7 @@
 [![Dependency Status](https://gemnasium.com/sarahquigley/coffeescript-lib-skeleton.svg)](https://gemnasium.com/sarahquigley/coffeescript-lib-skeleton)
 [![devDependency Status](https://david-dm.org/sarahquigley/coffeescript-lib-skeleton/dev-status.svg)](https://david-dm.org/sarahquigley/coffeescript-lib-skeleton#info=devDependencies)
 [![GitHub release](https://img.shields.io/github/release/sarahquigley/coffeescript-lib-skeleton.svg)](https://github.com/sarahquigley/coffeescript-lib-skeleton/releases)
-[![Coverage Status](https://coveralls.io/repos/sarahquigley/coffeescript-lib-skeleton/badge.svg?branch=&service=github)](https://coveralls.io/github/sarahquigley/coffeescript-lib-skeleton?branch=)
+[![Coverage Status](https://coveralls.io/repos/sarahquigley/coffeescript-lib-skeleton/badge.svg?branch=master&service=github)](https://coveralls.io/github/sarahquigley/coffeescript-lib-skeleton?branch=master)
 
 A skeleton for creating Javascript libraries in Coffeescript.
 
