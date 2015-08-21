@@ -8,6 +8,7 @@
 
 Javascript library for mocking DOM elements during unit testing.
 
+WARNING: This project is in the early stages of the development. Please wait for our first release before considering using these project. Thanks!
 
 ## Installing dependencies
 
