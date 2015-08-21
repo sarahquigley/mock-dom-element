@@ -1,11 +1,11 @@
 {
-  "name": "coffeescript-lib-skeleton",
-  "description": "Coffeescript Lib Skeleton",
+  "name": "mock-dom-element",
+  "description": "Javascript library for mocking DOM elements during unit testing.",
   "version": "0.0.0",
-  "homepage": "https://github.com/sarahquigley/coffeescript-lib-skeleton",
+  "homepage": "https://github.com/sarahquigley/mock-dom-element",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sarahquigley/coffeescript-lib-skeleton.git"
+    "url": "https://github.com/sarahquigley/mock-dom-element.git"
   },
   "private": false,
   "devDependencies": {

@@ -1,12 +1,12 @@
-# Coffeescript Lib Skeleton
+# Mock Dom Element
 
-[![Build Status](https://travis-ci.org/sarahquigley/coffeescript-lib-skeleton.svg)](https://travis-ci.org/sarahquigley/coffeescript-lib-skeleton)
-[![Dependency Status](https://gemnasium.com/sarahquigley/coffeescript-lib-skeleton.svg)](https://gemnasium.com/sarahquigley/coffeescript-lib-skeleton)
-[![devDependency Status](https://david-dm.org/sarahquigley/coffeescript-lib-skeleton/dev-status.svg)](https://david-dm.org/sarahquigley/coffeescript-lib-skeleton#info=devDependencies)
-[![GitHub release](https://img.shields.io/github/release/sarahquigley/coffeescript-lib-skeleton.svg)](https://github.com/sarahquigley/coffeescript-lib-skeleton/releases)
-[![Coverage Status](https://coveralls.io/repos/sarahquigley/coffeescript-lib-skeleton/badge.svg?branch=master&service=github)](https://coveralls.io/github/sarahquigley/coffeescript-lib-skeleton?branch=master)
+[![Build Status](https://travis-ci.org/sarahquigley/mock-dom-element.svg)](https://travis-ci.org/sarahquigley/mock-dom-element)
+[![Dependency Status](https://gemnasium.com/sarahquigley/mock-dom-element.svg)](https://gemnasium.com/sarahquigley/mock-dom-element)
+[![devDependency Status](https://david-dm.org/sarahquigley/mock-dom-element/dev-status.svg)](https://david-dm.org/sarahquigley/mock-dom-element#info=devDependencies)
+[![GitHub release](https://img.shields.io/github/release/sarahquigley/mock-dom-element.svg)](https://github.com/sarahquigley/mock-dom-element/releases)
+[![Coverage Status](https://coveralls.io/repos/sarahquigley/mock-dom-element/badge.svg?branch=master&service=github)](https://coveralls.io/github/sarahquigley/mock-dom-element?branch=master)
 
-A skeleton for creating Javascript libraries in Coffeescript.
+Javascript library for mocking DOM elements during unit testing.
 
 
 ## Installing dependencies
@@ -87,7 +87,7 @@ Note: if using local grunt (described above), replace `grunt` in all commands li
 e.g. `grunt build` becomes `./grunt build`
 
 
-### grunt build 
+### grunt build
 
 This tasks compiles Coffeescript source files to Javascript in the build directory. It watches those files for changes, and re-compiles them on change.
 
